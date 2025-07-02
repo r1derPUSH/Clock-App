@@ -1,0 +1,25 @@
+body {
+  background-image: url('./assets/img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 98vh;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 15px; */
+}
+
+.timer {
+  color: white;
+  font-family: monospace;
+  font-size: 6rem;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 5px;
+}
