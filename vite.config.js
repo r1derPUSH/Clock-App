@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/reactTest-17-2try/"
+  base: "/react-17-gitproj/"
 })
